@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ca" lang="ca">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Tablas</title>
+    <style>
+        td,th,table{
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+<table>
+    <caption>Tabla con combinación de filas y columnas</caption>
+    <tr>
+        <th>celda 1</th>
+        <th>celda 2</th>
+        <th>celda 3</th>
+        <th>celda 4</th>
+    </tr>
+    <tr>
+        <td rowspan="3">celda 5</td>
+        <td>celda 6</td>
+        <td colspan="2">celda 7</td>
+    </tr>
+    <tr>
+        <td>celda 8</td>
+        <td>celda 9</td>
+        <td rowspan="2">celda 10</td>
+    </tr>
+    <tr>
+        <td colspan="2">celda 11</td>
+    </tr>
+
+</table> 
+</body>
+</html>
